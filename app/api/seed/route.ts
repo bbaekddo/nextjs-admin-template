@@ -105,4 +105,6 @@ export async function GET() {
       availableAt: new Date()
     }
   ]);
+
+  return Response.json({ message: 'Products seeded' });
 }
